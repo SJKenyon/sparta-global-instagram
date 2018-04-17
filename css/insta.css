@@ -1,0 +1,109 @@
+/* Add a Sign Up button */
+button {
+    background-color: #4080f0;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+}
+
+button:hover {
+    opacity: 0.8;
+
+}
+
+div {
+  margin: auto;
+
+}
+
+aside {
+  float: right;
+
+}
+
+section {
+  float: left;
+
+}
+
+footer {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+p {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin: 3px;
+
+}
+
+h5 {
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+  font-family: helvetica, arial, sans-serif;
+
+}
+
+input {
+  width: 100%;
+  background-color: #fafafa;
+  color: grey;
+  margin-left: 5px;
+  font-size: 14px;
+  font-family: helvetica, arial, sans-serif;
+  border-radius: 5px;
+  padding: 9px 0 7px 8px;
+  margin-left: 2px;
+
+}
+
+.instagram {
+  align: middle;
+}
+
+.page {
+  width: 850px;
+
+}
+
+.list {
+    display: inline-block;
+    margin-bottom: 7px;
+    margin-right: 16px;
+}
+
+.copyright {
+  float: right;
+}
+
+.text {
+
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+    top: 3px;
+
+}
+
+.login {
+  float: auto;
+  text-align: center;
+
+}
+
+.form, .text {
+  color: grey;
+
+}
