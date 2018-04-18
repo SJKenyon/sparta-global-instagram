@@ -1,20 +1,28 @@
-# CSS Lab
+# README.md file for instagram lab
 
-## Timings
+I used @media queries to make responsive CSS to change the instagram webpage depending on screen size.
 
-This lab should take one to two hours.
+```css
+    @media screen and (max-width: 800px)
+```
+I used the size of the whole layout to determine the max width for the site to change.
 
-## Summary
+![Fullscreen](Fullscreen.png) ![Mobile](Mobile.png)
 
-Creating complex looking pages is not as hard as you might think. Recreate the following page using only CSS and HTML.
+---
 
-![Image of instagram login page](Instagram.png)
+In the smaller screen i used this code to remove the picture of the phones to create more space for the form.
 
-You can use the developer console in your browser to get colours, pixel sizes and fonts etc from the real site.
+```CSS
+    .iphones {
+      display: none;
+      }
+```
 
+and using
 
-## Notes
+```CSS
+    font-size: 2vw;
+```
 
-* Think about the flow of the page. Avoid absolute positioning unless it is completely necessary.
-* Keep your CSS as simple as possible. There are very few parts of the page that should require more than three or four lines of CSS.
-* Keep your HTML simple. Think about how you could split the page in to blocks.
+I made the font size get smaller as the page width decreases.
